@@ -1,7 +1,8 @@
 class MySampleClass:
-    def hello(self):
-        print("hello")
+    def hello(self,name):
+        print("hello"+" "+name)
 
 
 x = MySampleClass()
-x.hello()
+# name="Mrudul Mohan"
+x.hello("Achu")
